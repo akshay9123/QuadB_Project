@@ -1,0 +1,35 @@
+.navbar{
+    max-width: 1440px;
+    max-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 160px 16px 160px;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    color:#141718;
+    
+}
+.nav-menu li{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-login-carts{
+    display: flex;
+    gap: 16px;
+}
+.nav-login-carts button{
+    cursor: pointer;
+    
+}
+
+.nav-login-carts button:active{
+    background-color: #f3f3f3;
+}

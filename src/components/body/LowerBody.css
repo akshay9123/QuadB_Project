@@ -1,0 +1,53 @@
+.lowerBanner {
+  width: 1440px;
+  height: 532px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lowerBanner .lowerBannerLeft {
+  width: 720px;
+  height: 532px;
+}
+
+.lowerBanner .lowerBannerRight {
+  width: 720px;
+  height: 532px;
+  background-color: #f3f5f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lowerBanner .lowerBannerRight .info {
+  width: 452px;
+  height: 200px;
+  padding-left: 160px;
+  gap: 16px;
+}
+
+.lowerBanner .lowerBannerRight .info .offer {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #377dff;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.lowerBanner .lowerBannerRight .info .newStock {
+  font-weight: 500;
+  font-family: "POPPINS";
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+}
+
+.lowerBanner .lowerBannerRight .info .slogan {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+

@@ -1,0 +1,10 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+.popular-items{
+    display: flex;
+    gap: 24px;
+}

@@ -1,0 +1,61 @@
+.inputEmail {
+  width: 100%;
+  height: 360px;
+  background-image: url("../../assets/inputEmailImage.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputEmail .inputBox {
+  width: 540px;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputEmail .inputBox .inputBox1 .toJoin {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+}
+
+.inputEmail .inputBox .inputBox1 .toSign {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.inputEmail .inputBox .inputBox2 {
+  width: 488px;
+  height: 52px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.inputEmail .inputBox .inputBox2 input {
+  width: 400px;
+  height: 28px;
+  gap: 8px;
+  opacity: 0px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+.inputEmail .inputBox .inputBox2 button{
+    outline: none;
+}
